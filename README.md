@@ -1,2 +1,2 @@
-# geostore-fe-welcome-v1
+# geostore-fe-info-v1
 Container React dove rappresenta la pagina di benvenuto
