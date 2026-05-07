@@ -3,7 +3,7 @@ import './Welcome.css';
 
 
 
-function ImgsHead() { //dichiarare sempre con la lettera maiusc
+function Head() { //dichiarare sempre con la lettera maiusc
     return (
         <>
             <img src={logo} className="logo" alt="logo" />
@@ -18,6 +18,21 @@ function Body() { //dichiarare sempre con la lettera maiusc
     );
 }
 
+function Foot(){
+    return (
+        <button>ENTRA</button>
+    );
+}
+
+function NavBar(){
+    return (
+        <>
+            <button className="it"></button>
+            <button className="en"></button>
+            <button className="ja"></button>
+        </>
+    );
+}
 
 
 function Welcome() { //per chiamare le funzioni vengono usati i tag con il nome della function
@@ -26,12 +41,17 @@ function Welcome() { //per chiamare le funzioni vengono usati i tag con il nome 
       <header className="Welcome-header">
             <div className="white_window">
                 <div className="white_head">
-                    <ImgsHead />
+                    <Head />
                 </div>
                 <div className="white_body">
                     <Body />
                 </div>
-                <div className="white_foot"></div>
+                <div className="white_foot">
+                    <Foot />
+                </div>
+            </div>
+            <div className="foot_bar">
+                <NavBar />
             </div>
       </header>
     </div>
