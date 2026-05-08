@@ -5,6 +5,7 @@ import Welcome from './components/Welcome';
 import MenuAccount from './components/MenuAccount';
 import reportWebVitals from './reportWebVitals';
 
+//metto come pagina iniziale un file js (che sia benvenuto o menuAccount)
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
