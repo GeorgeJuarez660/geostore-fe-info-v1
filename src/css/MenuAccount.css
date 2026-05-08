@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Zen+Maru+Gothic&display=swap');
+
+
+.MenuAccount {
+    text-align: center;
+}
+
+.MenuAccount-header {
+    background: linear-gradient(to bottom, #8cc4ff, #3598ff);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.MenuAccount-white_window {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    background-color: #fff;
+    width: 90%;
+    height: auto;
+    min-height: min(770px, 80vh);
+    border-radius: 15px;
+    box-shadow:  8px 8px 20px rgba(0, 0, 0, 0.4);
+    color: #2352a4;
+    font-family: Inter, sans-serif;
+}
+
+.MenuAccount-white_window .back {
+    margin-top: 30px;
+    padding-left: 70px;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.MenuAccount-white_window .back button {
+    width: 60px;
+    height: 35px;
+    border: none;
+    background: linear-gradient(to bottom, #f17f7f, #ff5757);
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow:  8px 8px 20px rgba(0, 0, 0, 0.4);
+    cursor: pointer;
+}
+
+.MenuAccount-white_window .back img {
+    width: 35px;
+    height: 35px;
+}
+
+.MenuAccount-white_window .btns {
+    width: 100%;
+    height: auto;
+    min-height: min(30em, 60vh);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.MenuAccount-white_window .btns h2 {
+    font-size: 25px;
+    font-weight: normal;
+}
+
+.MenuAccount-white_window .btns .relog {
+    padding: 0 3%;
+}
+
+.MenuAccount-white_window .btns .relog .divider{
+    background-color: black;
+    opacity: 0.1;
+    width: 2px;
+    height: 27em;
+}
+
+.MenuAccount-white_window .btns .relog button {
+    width: clamp(10em, 25vw, 15em);
+    height: clamp(4em, 25vh, 7em);
+    border: none;
+    background: linear-gradient(to bottom, #6293e6, #306fdb);
+    border-radius: 10px;
+    font-size: 30px;
+    font-family: Inter, sans-serif;
+    color: white;
+    box-shadow:  8px 8px 20px rgba(0, 0, 0, 0.4);
+    cursor: pointer;
+}

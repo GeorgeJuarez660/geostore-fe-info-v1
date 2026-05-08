@@ -2,63 +2,57 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Zen+Maru+Gothic&display=swap');
 
 .Welcome {
-  text-align: center;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .Welcome-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+    text-align: center;
 }
 
 .Welcome-header {
-  background: linear-gradient(to bottom, #8cc4ff, #3598ff);
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
+    background: linear-gradient(to bottom, #8cc4ff, #3598ff);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
-.white_window {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: space-between;
-  background-color: #fff;
-  width: 80%;
-  height: auto;
+.Welcome-white_window { /*metto il suffisso Welcome- per differenziare con il tag degli altri css*/
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #fff;
+    width: 80%;
+    height: auto;
     min-height: min(770px, 80vh);
-  border-radius: 15px;
-  box-shadow:  8px 8px 20px rgba(0, 0, 0, 0.4);
-  color: #2352a4;
-  font-family: Inter, sans-serif;
+    border-radius: 15px;
+    box-shadow:  8px 8px 20px rgba(0, 0, 0, 0.4);
+    color: #2352a4;
+    font-family: Inter, sans-serif;
 }
 
-.white_window .white_head {
+.Welcome-white_window .white_head {
     margin-top: 30px;
 }
 
-.white_window .white_head h2 {
+.Welcome-white_window .white_head h2 {
     font-size: 18px;
     font-weight: 300;
 }
 
-.white_window .white_head .logo {
+.Welcome-white_window .white_head .logo {
     width: 270px;
     height: 50px;
 }
 
-.white_window .white_body h1 {
+.Welcome-white_window .white_body h1 {
     font-size: 60px;
     font-family: Poppins, sans-serif;
 }
 
-.white_window .white_foot {
+.Welcome-white_window .white_foot {
     margin-bottom: 30px;
 }
 
-.white_window .white_foot button {
+.Welcome-white_window .white_foot button {
     border: none;
     border-radius: 10px;
     width: 17em;
@@ -96,21 +90,21 @@
 }
 
 .it{
-    background-image: url("./img/it.png");
+    background-image: url("../img/it.png");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
 }
 
 .en{
-    background-image: url("./img/en.png");
+    background-image: url("../img/en.png");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
 }
 
 .ja{
-    background-image: url("./img/ja.png");
+    background-image: url("../img/ja.png");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;

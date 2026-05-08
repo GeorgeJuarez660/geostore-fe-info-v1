@@ -1,5 +1,5 @@
-import logo from './img/geostore_sign.png';
-import './Welcome.css';
+import logo from '../img/geostore_sign.png';
+import '../css/Welcome.css';
 
 
 
@@ -39,7 +39,7 @@ function Welcome() { //per chiamare le funzioni vengono usati i tag con il nome 
   return (
     <div className="Welcome">
       <header className="Welcome-header">
-            <div className="white_window">
+            <div className="Welcome-white_window">
                 <div className="white_head">
                     <Head />
                 </div>
